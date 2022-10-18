@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+.nav {
+  height: 50px;
+  line-height: 50px;
+  background-color: rgb(53, 53, 53);
+  text-align: center;
+  font-style: 0;
+}
+.nav .nav-item {
+  display: inline-block;
+}
+.nav a {
+  padding: 10px 50px;
+  font-style: 16px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  transition: color 0.4s;
+}
+.nav a:hover {
+  color: rgb(179, 6, 179);
+}
+
+.header-img {
+  position: relative;
+  height: 300px;
+  background-image: url(../img/header_img.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.header-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  z-index: 1;
+}
+.header-text h1 {
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.header-bg {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 3, 11, 0.4);
+}
+
+.main {
+  width: 1200px;
+  margin: 50px auto;
+}
+.main h2 {
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.main .about-us-box {
+  position: relative;
+  height: 300px;
+  margin: 40px 0;
+  background-attachment: fixed;
+  background-position: center;
+  border-top-left-radius: 70px;
+  border-bottom-right-radius: 70px;
+  overflow: hidden;
+}
+.main .about-us-box .about-us-text {
+  position: absolute;
+  bottom: 20px;
+  padding: 20px 20px;
+  text-align: center;
+  color: #fff;
+}
+.main .about-us-box .about-us-text h3 {
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+.main .about-us-box .about-us-bg {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40%;
+  background-color: rgba(0, 18, 22, 0.4);
+}
+.main .top {
+  position: relative;
+  height: 300px;
+  background-image: url(../img/brush_1920.jpg);
+}
+.main .middle {
+  background-image: url(../img/mobile-phone_1920.jpg);
+}
+.main .bottom {
+  background-image: url(../img/wordpress_1920.jpg);
+}
+
+.footer {
+  height: 80px;
+  line-height: 80px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  font-style: 20px;
+}
+.footer .icon-box {
+  margin-left: 20px;
+}
+.footer .icon-box a {
+  color: #ddd;
+  margin: 0 5px;
+  font-size: 30px;
+  transition: color 0.4s;
+}
+.footer .icon-box a:hover {
+  color: rgb(179, 6, 179);
+}/*# sourceMappingURL=style.css.map */
